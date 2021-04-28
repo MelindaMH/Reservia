@@ -1,0 +1,171 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    
+    width: 1440px;
+    font-family:'Raleway' , sans-serif;
+}
+
+header 
+{
+    
+   display: flex;
+   
+   align-items:center;
+   justify-content: space-between;
+   width: 1440px;
+   height: 110px;
+}
+.reservia
+{
+    height: 110px;
+    width: 158px;
+    }
+
+.menu
+{
+    margin-left: auto;
+    width: 1100px;
+    height: 110px;
+    align-items: center;
+    
+    
+}
+
+.navigation
+{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    width: 334px;
+    height: 110px;
+    margin-left: auto;
+    
+   
+}
+
+.navigation li
+   {
+       width: 167px;
+       height: 110px;
+    font-size: 20px;
+    padding-top: 42.5px;
+    padding-bottom: 42.5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+ 
+.inscrire
+{
+    width: 182px;
+    height: 110px;
+    padding-top: 44.5px;
+    padding-bottom: 44.5px;
+    padding-left: 52.5px;
+    padding-right: 52.5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0065FC;
+    text-decoration : None;
+
+}
+.complet-main
+{
+    width: 1440px;
+    height: 1550px;
+}
+.banniere
+{
+    width: 1440px;
+    height: 95px;
+    
+}
+.banniere h2
+{   font-size: 25px;
+    height: 23px;
+    width: 1440px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+.banniere p
+{
+    font-size: 19px;
+    height: 23px;
+    width: 575px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+
+
+.recherche
+{
+    width: 1440px;
+    height: 90px;
+    align-items: center;
+    
+    
+   }
+   .barre-de-recherche
+{
+    border:solid 2px #F2F2F2;
+    border-radius: 10px;
+    height: 55px;
+    width: 422px;
+    display:flex;
+    flex-direction: row;
+    margin-left: 20px;
+   
+}
+ .recherche i
+ {
+     width: 55px;
+     height: 51px;
+     padding-top: 17.5px;
+    padding-bottom: 17.5px;
+    padding-left: 19px;
+    padding-right: 19px;
+    background-color: #F2F2F2;
+     
+ }
+.recherche-2
+{
+    height: 51px;
+    width: 233px;
+    text-align: center;
+    padding-right: 45px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.bouton-recherche
+{
+    height: 51px;
+    width: 130px;
+    display: inline-block;
+    background-color:#0065FC;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 34px;
+    border-radius: 0px 10px 10px 0px;
+}
+.text-bouton
+{
+    font-weight: bold;
+    font-size:  18px;
+  color: #FFFFFF;
+}
+
+
+
