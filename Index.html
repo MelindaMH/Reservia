@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css" />
     <link href="css/all.css" rel="stylesheet">
-    <title>Reserviat</title>
+    <title>Reservia</title>
 </head>
 <body>
     
 
     <header>
       <!--section header-->
-<img  class="logo" src="images/logo/Reservia.svg" alt="Logo Reservia">
+<img  class="reservia" src="images/logo/Reservia.svg" alt="Logo Reservia">
 <nav class="menu">
 <ul class="navigation">
 <li class="hebergement"    href="#hebergement"> Hébergements </li>
@@ -27,11 +27,19 @@
     <section class="complet-main">
         <!---Banniere-->
         <div class="banniere">
-<h2>Trouver votre hébergement pour des vacances de rêve</h2>
+<h2>Trouver votre hébergement pour des vacances de rêve</h2> <br>
 <p>En plein centre ville ou en pleine nature</p>
         </div>
  <!---recherche-->
-<div class="recherche"></div>
+<div class="recherche">
+    <form class="barre-de-recherche">
+        <i class="fas fa-map-marker-alt"></i>
+            <input type="search" name="recherche" id="recherche" class="recherche-2" placeholder="Ville,code postal" value="Marseille, France">                                                 
+                        <button class="bouton-recherche" type="button"> 
+                            <p class="text-bouton"> Rechercher </p>
+                        </button>
+    </form>                                                          
+</div>
 <!--filtre-->
 <section class="filtre">
     <h4><strong>Filtres</strong></h4>
