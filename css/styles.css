@@ -12,8 +12,11 @@ body
     
     width: 1440px;
     font-family:'Raleway' , sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+/*------------PARTIE HEADER ICI ---------*/
 header 
 {
     
@@ -39,7 +42,7 @@ header
     
     
 }
-
+/*-------PARTIE NAVIGATION ICI ---------*/
 .navigation
 {
     display: flex;
@@ -84,6 +87,7 @@ header
     width: 1440px;
     height: 1550px;
 }
+/*---PETITE BANNIERE ICI---*/
 .banniere
 {
     width: 1440px;
@@ -108,7 +112,7 @@ header
     
 }
 
-
+/*-------PARTIE RECHERCHE ICI-----------*/
 .recherche
 {
     width: 1440px;
@@ -159,13 +163,181 @@ header
     padding-left: 16px;
     padding-right: 34px;
     border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    color: #FFFF;
+    font-weight: bold;
+    font-size: 18px;
 }
-.text-bouton
+.text-filtre
 {
     font-weight: bold;
     font-size:  18px;
-  color: #FFFFFF;
+    padding: 10px 15px;
+    
+  
+}
+
+.filtre
+{
+    
+    height: 86px;
+    display: flex;
+    align-items: center;
+  align-content: center;
+  
+}
+.Bouton-filtre
+{
+   display: flex;
+
+}
+.filtre label
+{
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    cursor: pointer;
+
+}
+.filtre i
+{
+    color: #0065FC;
+     font-size: 23px;
+     width: 50px;
+     height: 50px;
+     background-color: #DEEBFF;
+     border-radius: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin:  -2px;
+}
+.Bouton-filtre input
+{
+ display: none; 
+}
+.Bouton-filtre input:checked + label
+{
+    background-color: #f2f2f2;
+}
+.information
+{
+    display: flex;
+     align-items: center;
+     
+}
+.information i
+{
+    width: 35px;
+    height: 35px;
+    color: #0065FC;
+    border:solid 2px #F2F2F2;
+    border-radius: 30px;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+    margin-right: 20px;
+    
+}
+
+.article 
+{
+    display: flex;
 }
 
 
 
+
+
+.hebergement
+{
+    height: 660px;
+    width: 900px;
+    background-color:#F2F2F2;
+    border-radius: 30px;
+    border: solid 5px #F2F2F2;
+margin-top: 30px;
+
+}
+.house
+{
+    height: 200px;
+    width: 235px;
+    margin-top:  25px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+    
+    
+}
+
+.house img
+{
+    width: 235px;
+    height: 114px;
+   
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px 20px 0px 0px;
+   }
+   .house h3
+   {
+       color: black;
+       font-size: 15px;
+       padding-left: 10px;
+       padding-top: 3px;
+       text-decoration:none;
+   }
+   .house p
+   {
+       padding-left: 10px;
+       padding-top: 3px;
+       color: black;
+   }
+   .etoile
+   {
+       padding-left: 10px;
+       padding-top: 10px;
+       font-size: 15px;
+       color: #0065FC;
+       }
+       .grey
+       {
+           color: #C0C0C0;
+       }
+   .titre-hebergement
+   {
+       padding-left: 30px;
+       margin-top: 30px;
+   }
+   .afficher-plus
+   {
+       padding-left: 30px;
+       font-size: 20px;
+       
+   }
+    .populaire
+    {
+        height: 660px;
+        width: 420px;
+        background-color: red;
+        border: solid 5px blue;
+        
+        
+    }
+.image-populaire img
+{
+    width: 150px;
+    height: 150px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px 20px 0px 0px;
+}
