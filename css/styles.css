@@ -64,7 +64,11 @@ header
     padding-bottom: 42.5px;
     padding-left: 25px;
     padding-right: 25px;
-    
+}
+.navigation li:hover
+{
+    color: #0065FC;
+    text-decoration: underline;
 }
 
  
@@ -186,6 +190,13 @@ header
   align-content: center;
   
 }
+.filtre label:hover
+ {
+     color: #0065FC
+     
+ }
+ 
+
 .Bouton-filtre
 {
    display: flex;
@@ -418,11 +429,7 @@ margin-bottom: 50px;
 {
     object-fit: cover;
 }
-.activites 
-{
-    margin-top: 20px;
-    
-}
+
 .bloc-vieux-port
 {
     width: 302px;
