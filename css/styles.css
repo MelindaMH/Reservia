@@ -10,10 +10,9 @@
 body
 {
     
-    width: 1440px;
+    max-width: 1440px;
     font-family:'Raleway' , sans-serif;
-    padding-left: 30px;
-    padding-right: 15px;
+    margin: auto;
 }
 
 /*------------PARTIE HEADER ICI ---------*/
@@ -24,19 +23,16 @@ header
    
    align-items:center;
    justify-content: space-between;
-   width: 1440px;
+   max-width: 1440px;
    height: 110px;
+   
 }
-.reservia
-{
-    height: 110px;
-    width: 158px;
-    }
+
 
 .menu
 {
     margin-left: auto;
-    width: 1100px;
+    max-width: 1100px;
     height: 110px;
     align-items: center;
     
@@ -78,7 +74,7 @@ header
     height: 110px;
     padding-top: 44.5px;
     padding-bottom: 44.5px;
-    padding-left: 52.5px;
+    
     padding-right: 52.5px;
     font-size: 20px;
     font-weight: bold;
@@ -86,22 +82,18 @@ header
     text-decoration : None;
 
 }
-.complet-main
-{
-    width: 1440px;
-    height: 1550px;
-}
+
 /*---PETITE BANNIERE ICI---*/
 .banniere
 {
-    width: 1440px;
+    max-width: 1440px;
     height: 95px;
     
 }
 .banniere h2
 {   font-size: 25px;
     height: 23px;
-    width: 1440px;
+    max-width: 1440px;
     padding-bottom: 20px;
     padding-left: 20px;
     
@@ -119,7 +111,7 @@ header
 /*-------PARTIE RECHERCHE ICI-----------*/
 .recherche
 {
-    width: 1440px;
+    max-width: 1440px;
     height: 90px;
     align-items: center;
     
@@ -266,7 +258,7 @@ header
 .hebergement
 {
     height: 630px;
-    width: 900px;
+    max-width: 900px;
     background-color:#F2F2F2;
     border-radius: 30px;
     border: solid 5px #F2F2F2;
@@ -535,6 +527,7 @@ height: 180px;
     height: 152px;
     border-radius:  20px 20px 0px 0px;
 }
+
 .bloc-footer
 {
     background-color:#F2F2F2;
@@ -542,6 +535,8 @@ height: 180px;
     justify-content: space-between;
     margin-top: 50px;
     padding-bottom: 80px;
+    width: 100%;
+    
     
 }
 .bloc-footer h3
@@ -556,4 +551,45 @@ height: 180px;
  list-style: none;
  padding-right: 25px;
  padding-left: 25px;
+}
+@media screen and (max-width: 375px){
+    
+    header{
+        flex-direction: column;
+       display: flex;
+    }
+    .menu{
+        margin:0px;
+    }
+    .container
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .filtre
+    {
+        flex-direction: column;
+        display: flex;
+    }
+    .Bouton-filtre
+    {
+        flex-direction: column;
+    }
+    .hebergement
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .activites-bloc
+    {
+        flex-direction: column;
+        display: flex;
+    }
+    .bloc-footer
+    {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    
 }
