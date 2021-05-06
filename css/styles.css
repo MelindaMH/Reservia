@@ -23,9 +23,15 @@ header
    
    align-items:center;
    justify-content: space-between;
-   max-width: 1440px;
+   max-width: 1340px;
+   margin:auto;
    
    
+}
+.main 
+{
+    max-width: 1340px;
+    margin:auto;
 }
 
 
@@ -94,8 +100,7 @@ header
 {   font-size: 25px;
     height: 23px;
     max-width: 1440px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    
     
 }
 .banniere p
@@ -104,14 +109,13 @@ header
     height: 23px;
     max-width: 575px;
     
-    padding-left: 20px;
 }
 
 /*-------PARTIE RECHERCHE ICI-----------*/
 .recherche
 {
     max-width: 1440px;
-    height: 90px;
+    
     align-items: center;
     
     
@@ -124,7 +128,7 @@ header
     max-width: 390px;
     display:flex;
     flex-direction: row;
-    margin-left: 20px;
+    
    
 }
  .recherche i
@@ -249,6 +253,7 @@ header
 .container
 {
     display: flex;
+    justify-content: space-between;
     
 }
 
@@ -341,7 +346,7 @@ margin-bottom: 50px;
     border-radius: 30px;
     border: solid 5px #F2F2F2;
         margin-top: 30px;
-        margin-left: 40px;
+        
         
         
     }
@@ -415,7 +420,7 @@ margin-bottom: 50px;
     align-items: center;
     margin-top: 80px;
     height: 410px;
-    padding-right: 100px;
+    
     padding-bottom: 80px;
 }
 .activites-bloc img
@@ -533,7 +538,7 @@ height: 180px;
 {
     background-color:#F2F2F2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 50px;
     padding-bottom: 80px;
     width: 100%;
@@ -581,6 +586,10 @@ height: 180px;
     {
         flex-direction: column;
     }
+    .barre-de-recherche
+    {
+        margin-left: 0px;
+    }
     .hebergement
     {
         display: flex;
@@ -588,12 +597,25 @@ height: 180px;
         background-color: white;
         border: solid white;
         height: auto;
+        width: 100%;
+    }
+    .populaire
+    {
+        margin-left: 0px;
+        width: 100%;
+        padding:10px;
+           }
+    .image-populaire
+    {
+        width: 100%;
+        margin-left: 0px;
     }
     .activites-bloc
     {
         flex-direction: column;
         display: flex;
         height: auto;
+        padding-right: 0px;
     }
     .bloc-footer
     {
