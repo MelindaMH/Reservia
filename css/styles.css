@@ -10,7 +10,7 @@
 body
 {
     
-    max-width: 1440px;
+    
     font-family:'Raleway' , sans-serif;
     margin: auto;
 }
@@ -30,8 +30,9 @@ header
 }
 .main 
 {
-    max-width: 1340px;
-    margin:auto;
+    
+    margin: 0 110px;
+    
 }
 
 
@@ -124,7 +125,7 @@ header
 {
     border:solid 2px #F2F2F2;
     border-radius: 20px;
-    height: 55px;
+    height: 50px;
     max-width: 390px;
     display:flex;
     flex-direction: row;
@@ -146,7 +147,7 @@ header
  }
 .recherche-2
 {
-    height: 51px;
+    
     width: 200px;
     text-align: center;
     
@@ -207,6 +208,7 @@ header
     align-items: center;
     margin: 15px;
     cursor: pointer;
+    width: 185px;
 
 }
 .filtre i
@@ -428,9 +430,9 @@ margin-bottom: 50px;
     object-fit: cover;
 }
 
-.bloc-vieux-port
+ .bloc-vieux-port
 {
-    width: 302px;
+   width: 302px;
     height: 447px;
     background: white;
     border-radius: 20px 20px 20px 20px;
@@ -568,7 +570,12 @@ height: 180px;
         flex-direction: column;
        display: flex;
     }
-    .menu{
+    .main
+    {
+    width: 100%;
+    }
+    .menu
+    {
         margin:0px;
     }
     
@@ -589,6 +596,7 @@ height: 180px;
     .barre-de-recherche
     {
         margin-left: 0px;
+        width: 100%;
     }
     .hebergement
     {
@@ -610,6 +618,7 @@ height: 180px;
         width: 100%;
         margin-left: 0px;
     }
+
     .activites-bloc
     {
         flex-direction: column;

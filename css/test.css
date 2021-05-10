@@ -1,0 +1,796 @@
+/* VERSION MOBILE */
+html
+{
+box-sizing: border-box;
+}
+body
+{
+    
+    
+    font-family:'Raleway' , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------PARTIE HEADER ICI ---------*/
+.reservia 
+{
+    
+    margin-left: 10px;
+    margin-right: auto;
+}
+header 
+{
+    
+   display: flex;
+   align-items:center;
+   
+   justify-content: space-between;
+  width: 100%;
+   margin:auto;
+}
+
+.menu
+{
+    margin-left: auto;
+    width: 100%;
+   
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+
+    
+}
+.navigation
+{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    
+    height: 0;
+    
+    
+   
+}
+
+.navigation li
+   {
+   
+    
+    font-size: 20px;
+    
+    padding-right: 15px;
+}
+.navigation li:hover
+{
+    color: #0065FC;
+    text-decoration: underline;
+}
+.inscrire
+{
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: #0065FC;
+    text-decoration : None;
+    margin-bottom: 30px;
+}
+/*---PETITE BANNIERE ICI---*/
+.banniere
+{
+    
+    height: 95px;
+    margin-left: 10px;
+    
+}
+.banniere h2
+{   font-size: 25px;
+    height: 1px;
+    margin-top: 40px;
+    
+    
+}
+.banniere p
+{
+    font-size: 19px;
+    margin-top: 30px;
+    
+  }
+  /*-------PARTIE RECHERCHE ICI-----------*/
+  .recherche
+  {
+      
+      align-items: center;
+      
+      
+     }
+     .barre-de-recherche
+  {
+      border:solid 2px #F2F2F2;
+      border-radius: 20px;
+      height: 55px;
+      max-width: 330px;
+      display:flex;
+      flex-direction: row;
+      margin-top: 25px;
+      margin-left: 10px;
+      
+     
+  }
+   .recherche i
+   {
+       
+       padding-top: 17.5px;
+      padding-bottom: 17.5px;
+      padding-left: 19px;
+      padding-right: 19px;
+      background-color: #F2F2F2;
+      border-radius: 15px 0px 0px 15px;
+      font-size: 20px;
+       
+   }
+  .recherche-2
+  {
+      
+      width: 100%;
+      text-align: center;
+      border-style: none;
+      font-size: 17px;
+      font-weight: bold;
+  }
+  .bouton-recherche
+  {
+      
+      border-style: none;
+      display: inline-block;
+      background-color:#0065FC;
+     border-color: #0065FC;
+      border-radius: 0px 15px 15px 0px;
+      cursor: pointer;
+      color: #FFFF;
+      font-weight: bold;
+      font-size: 18px;
+  }
+ 
+  /* PARTIE FILTRE */
+  .text-filtre
+  {
+      font-weight: bold;
+      font-size:  18px;   
+      padding-left: 10px;
+    
+  }
+  
+  .filtre
+  {
+      
+    flex-direction: column;
+    display: flex;
+    margin-left: 10px;
+     
+  }
+  .filtre label:hover
+   {
+       color: #0065FC
+       
+   }
+   
+  
+  .Bouton-filtre
+  {
+     display: flex;
+     flex-direction: column;
+  
+  }
+  .filtre label
+  {
+      border: 2px solid #f2f2f2;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      margin:10px;
+      cursor: pointer;
+      width: 180px;
+      height: 50px;
+  
+  }
+  .filtre i
+  {
+      color: #0065FC;
+       font-size: 23px;
+       width: 50px;
+       height: 50px;
+       background-color: #DEEBFF;
+       border-radius: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin:  -2px;
+  }
+  .Bouton-filtre input
+  {
+   display: none; 
+  }
+  .Bouton-filtre input:checked + label
+  {
+      background-color: #f2f2f2;
+  }
+  .information
+  {
+      display: flex;
+       align-items: center;
+       
+  }
+  .information i
+  {
+      width: 35px;
+      height: 35px;
+      color: #0065FC;
+      border:solid 2px #F2F2F2;
+      border-radius: 30px;
+      display: flex;
+       align-items: center;
+       justify-content: center;
+      margin-right: 20px;
+      
+  }
+/* PARTIE CONTAINER */
+.container
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+         }
+    .hebergement
+{
+    
+    max-width: 900px;
+margin-top: 30px;
+margin-bottom: 50px;
+
+}
+  
+.house
+{
+    height: 200px;
+    
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+    display: inline-block;
+    background-color:white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+    
+}
+
+.house img
+{
+    width: 97%;
+    height: 120px;
+   object-fit: cover;
+   object-position: center center;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px 20px 0px 0px;
+   }
+   .house h3
+   {
+       color: black;
+       font-size: 15px;
+       padding-left: 10px;
+       margin: 4px;
+       text-decoration:none;
+   }
+   .house p
+   {
+       padding-left: 10px;
+       margin: 4px;
+       color: black;
+   }
+   .etoile
+   {
+       padding-left: 10px;
+       
+       
+       color: #0065FC;
+       }
+       .grey
+       {
+           color: #C0C0C0;
+       }
+   .titre-hebergement
+   {
+       padding-left: 30px;
+       margin: 0px;
+      
+   }
+   .afficher-plus
+   {
+       padding-left: 30px;
+       font-size: 20px;
+       display:block;
+       margin-top:15px;
+    }
+
+       /* PARTIE POPULAIRE */
+    
+    .populaire
+    {
+        
+        
+       background-color:#F2F2F2;
+    border-radius: 30px;
+    border: solid 5px #F2F2F2;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+        
+        
+    }
+.image-populaire
+{
+    height: 160px;
+    
+    background-color:white;
+    border:white solid 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+    display: flex;
+    
+    margin-left:  30px;
+    margin-right: 30px;
+    margin-bottom: 35px;
+   }
+
+
+
+.image-populaire img
+{
+    width: 137px;
+    
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 15px 0px 0px 15px;
+}
+.text-populaire
+{
+    
+    color: black;
+    font-size: 15px;    
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+.populaire h3
+{
+    margin: 4px;
+}
+
+.populaire .etoile
+{
+    
+    padding-left: 5px;
+}
+
+
+
+.titre-populaire
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.titre-populaire i
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+/* PARTIE ACTIVITES ICI    */
+.activites-bloc
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.activites-bloc img
+{
+    object-fit: cover;
+}
+
+.bloc-vieux-port
+{
+    width: 330px;
+    margin-bottom: 25px;
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+}
+.bloc-vieux-port img
+{
+    height: 135px;
+    width: 330px;
+    border-radius:  20px 20px 0px 0px;
+}
+.activites-bloc p
+{
+    padding-left: 10px;
+    
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.bloc-fort-iles
+{
+    display: flex;
+    flex-direction: column;
+}
+.fort 
+{
+    
+    width: 330px;
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+    margin-bottom: 25px;
+}
+.fort img
+{
+    width: 330px;
+height: 135px;
+    border-radius:  20px 20px 0px 0px;
+}
+
+.iles 
+{
+    width: 330px;
+    margin-bottom: 25px;
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+}
+.iles img
+{   
+    width: 330px;
+    height: 135px;
+    border-radius:  20px 20px 0px 0px;
+}
+.bloc-parcnational
+{
+    width: 330px;
+    margin-bottom: 25px;
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+}
+.bloc-parcnational img
+{
+    height: 135px;
+    width: 330px;
+    border-radius:  20px 20px 0px 0px;
+}
+.bloc-notredame-longchamp
+{
+    display: flex;
+    flex-direction: column;
+}
+.notre-dame
+{
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 330px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+    margin-bottom: 25px;
+}
+.notre-dame img
+{
+    width: 330px;
+    height: 135px;
+    border-radius:  20px 20px 0px 0px;
+}
+.Parc-longchamp
+{
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 330px;
+    
+    box-shadow: 0px 0px 20px #C0C0C0;
+}
+.Parc-longchamp img
+{
+    width: 330px;
+    height: 135px;
+    border-radius:  20px 20px 0px 0px;
+}
+/* PARTIE DU FOOTER ICI */
+.bloc-footer
+{
+    background-color:#F2F2F2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-bottom: 80px;
+    
+    
+    
+}
+.bloc-footer h3
+{
+    
+ padding-left: 25px;
+}
+.bloc-footer li
+{
+ list-style: none;
+padding-top: 10px;
+}
+/* VERSION ORDI */
+/* VERSION ORDI */
+/* VERSION ORDI */
+/* VERSION ORDI */
+/* VERSION ORDI */
+/* VERSION ORDI */
+/* VERSION ORDI */
+/* VERSION ORDI */
+
+
+@media screen and (min-width:1024px) {
+body 
+{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.reservia
+{
+    margin-bottom: -40px;
+}
+.navigation li 
+{
+    padding-right: 50px;
+}
+
+.menu
+{
+    
+    padding-bottom: 20px;
+}
+.container
+{
+   flex-direction: inherit;
+    
+}
+.inscrire
+{
+    margin-bottom: 0px;
+}
+.banniere
+{
+    height: auto;
+}
+.banniere p 
+{
+    margin: 0px;
+}
+.filtre
+{
+    display: flex;
+    align-items: center;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.Bouton-filtre
+{
+   display: flex;
+   flex-direction: row;
+
+}
+.recherche-2
+{
+    width: 200px;
+}
+.hebergement
+{
+    background-color:#F2F2F2;
+    border-radius: 30px;
+    border: solid 5px #F2F2F2;
+    height: 600px;
+}
+.titre-hebergement
+{
+    padding-top: 20px;
+}
+.afficher-plus
+{
+    padding-top: 15px;
+}
+
+ .house
+{
+    height: 200px;
+    width: 235px;
+    margin-top:  40px;
+    
+    margin-left: 30px;
+    margin-right: 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+}
+.house img 
+{
+    width: 95.5%;
+}
+.populaire
+    {
+       height: 600px;
+        width: 410px;
+    }
+.image-populaire
+{
+    height: 125px;
+    width: 340px;
+    
+   }
+   .activites-bloc
+   {
+       display: flex;
+       flex-direction: unset;
+       margin-left: -50px;
+       
+   }
+   .activites-bloc img
+{
+    object-fit: cover;
+}
+
+
+.bloc-vieux-port
+{
+   width: 302px;
+    height: 447px;
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.bloc-vieux-port img
+{
+    height: 390px;
+    width: 302px;
+    border-radius:  20px 20px 0px 0px;
+}
+.activites-bloc p
+{
+    
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.bloc-fort-iles
+{
+    display: flex;
+    flex-direction: column;
+}
+.fort 
+{
+    height: 238px;
+    width: 302px;
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+    margin-bottom: 50px;
+}
+.fort img
+{
+    width: 302px;
+height: 180px;
+    border-radius:  20px 20px 0px 0px;
+}
+
+.iles 
+{
+    width: 302px;
+    height: 166px;
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+}
+.iles img
+{   
+    width: 302px;
+    height: 110px;
+    border-radius:  20px 20px 0px 0px;
+}
+.bloc-parcnational
+{
+    width: 302px;
+    
+    margin-left: 60px;
+    margin-right: 60px;
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+}
+.bloc-parcnational img
+{
+    height: 390px;
+    width: 302px;
+    border-radius:  20px 20px 0px 0px;
+}
+.bloc-notredame-longchamp
+{
+    display: flex;
+    flex-direction: column;
+}
+.notre-dame
+{
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 302px;
+    height: 196px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+    margin-bottom: 50px;
+}
+.notre-dame img
+{
+    width: 302px;
+    height: 140px;
+    border-radius:  20px 20px 0px 0px;
+}
+.Parc-longchamp
+{
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 302px;
+    height: 210px;
+    box-shadow: 0px 0px 20px #C0C0C0;
+}
+.Parc-longchamp img
+{
+    width: 302px;
+    height: 152px;
+    border-radius:  20px 20px 0px 0px;
+}
+.bloc-footer
+{
+    background-color:#F2F2F2;
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 80px;
+    width: 100%;
+    
+    
+}
+.bloc-footer h3
+{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    padding-right: 25px;
+ padding-left: 25px;
+ text-align: center;
+}
+.bloc-footer li
+{
+ list-style: none;
+ padding-right: 25px;
+ padding-left: 25px;
+}
+
+
+
+
+
+
+ }
