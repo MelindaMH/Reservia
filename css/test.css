@@ -15,7 +15,7 @@ body
 /*------------PARTIE HEADER ICI ---------*/
 .reservia 
 {
-    
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: auto;
 }
@@ -24,10 +24,8 @@ header
     
    display: flex;
    align-items:center;
-   
-   justify-content: space-between;
   width: 100%;
-   margin:auto;
+   
 }
 
 .menu
@@ -47,25 +45,22 @@ header
     flex-direction: row;
     list-style:none;
     
-    height: 0;
-    
-    
    
 }
 
 .navigation li
    {
-   
     
     font-size: 20px;
-    
     padding-right: 15px;
 }
+
 .navigation li:hover
 {
     color: #0065FC;
     text-decoration: underline;
 }
+
 .inscrire
 {
     
@@ -73,7 +68,7 @@ header
     font-weight: bold;
     color: #0065FC;
     text-decoration : None;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 /*---PETITE BANNIERE ICI---*/
 .banniere
@@ -114,8 +109,7 @@ header
       flex-direction: row;
       margin-top: 25px;
       margin-left: 10px;
-      
-     
+    
   }
    .recherche i
    {
@@ -145,20 +139,30 @@ header
       display: inline-block;
       background-color:#0065FC;
      border-color: #0065FC;
-      border-radius: 0px 15px 15px 0px;
+      border-radius: 15px;
       cursor: pointer;
       color: #FFFF;
       font-weight: bold;
       font-size: 18px;
+  }
+  .bouton-recherche p 
+  {
+      display: none;
+  }
+  .bouton-recherche i 
+  {
+      background-color: #0065FC;
+      height: auto;
+      padding:  10px 20px 10px 20px;
   }
  
   /* PARTIE FILTRE */
   .text-filtre
   {
       font-weight: bold;
-      font-size:  18px;   
-      padding-left: 10px;
-    
+      font-size:  18px;  
+      padding-left: 15px; 
+      
   }
   
   .filtre
@@ -169,6 +173,7 @@ header
     margin-left: 10px;
      
   }
+  
   .filtre label:hover
    {
        color: #0065FC
@@ -190,7 +195,7 @@ header
       align-items: center;
       margin:10px;
       cursor: pointer;
-      width: 180px;
+      width: 70%;
       height: 50px;
   
   }
@@ -391,6 +396,11 @@ margin-bottom: 50px;
     font-size: 25px;
 }
 /* PARTIE ACTIVITES ICI    */
+.titre-activites
+{
+    padding-left: 25px;
+}
+
 .activites-bloc
 {
     display: flex;
@@ -549,18 +559,15 @@ body
 }
 .reservia
 {
-    margin-bottom: -40px;
+    margin-bottom: 10px;
+    width: 130px;
 }
 .navigation li 
 {
     padding-right: 50px;
 }
 
-.menu
-{
-    
-    padding-bottom: 20px;
-}
+
 .container
 {
    flex-direction: inherit;
@@ -568,7 +575,7 @@ body
 }
 .inscrire
 {
-    margin-bottom: 0px;
+    margin-bottom: 1px;
 }
 .banniere
 {
@@ -578,6 +585,11 @@ body
 {
     margin: 0px;
 }
+.bouton-recherche i 
+{
+    display: none;
+}
+
 .filtre
 {
     display: flex;
@@ -586,11 +598,30 @@ body
   flex-direction: row;
   margin-top: 20px;
 }
+.bouton-recherche p
+{
+   
+    display: flex;
+    padding-left: 10px;
+
+}
+.barre-de-recherche
+{
+    background-color: #0065FC;
+    max-width: 390px;
+}
+.bouton
+  {
+      margin-right: 15px;
+  }
 .Bouton-filtre
 {
    display: flex;
    flex-direction: row;
-
+}
+.filtre label 
+{
+    width: 100%;
 }
 .recherche-2
 {
@@ -611,6 +642,7 @@ body
 {
     padding-top: 15px;
 }
+
 
  .house
 {
@@ -789,6 +821,30 @@ height: 180px;
 }
 
 
+ }
+ /* VERSION Tablette ici*/
+ /
+ @media screen and (min-width: 500px) and (max-width: 1023px){
+
+.inscrire
+{
+    
+    margin-bottom: 0px;
+}
+.house
+{
+
+width: 80%;
+}
+.house img 
+{
+    width: 98.5%;
+    object-position: bottom;
+}
+.filtre label 
+{
+    width: 40%;
+}
 
 
 
