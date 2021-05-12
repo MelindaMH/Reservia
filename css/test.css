@@ -53,6 +53,7 @@ header
     
     font-size: 20px;
     padding-right: 15px;
+    color: black;
 }
 
 .navigation li:hover
@@ -146,6 +147,10 @@ header
       font-size: 18px;
   }
   .bouton-recherche p 
+  {
+      display: none;
+  }
+  span.text-bouton
   {
       display: none;
   }
@@ -589,7 +594,10 @@ body
 {
     display: none;
 }
-
+span.text-bouton
+{
+    display: flex;
+}
 .filtre
 {
     display: flex;
