@@ -30,9 +30,8 @@ header
 
 .menu
 {
-    margin-left: auto;
-    width: 100%;
    
+    
    display: flex;
    align-items: center;
    flex-wrap: wrap;
@@ -254,7 +253,7 @@ header
     .hebergement
 {
     
-    max-width: 900px;
+    width: 100%;
 margin-top: 30px;
 margin-bottom: 50px;
 
@@ -263,26 +262,25 @@ margin-bottom: 50px;
 .house
 {
     height: 200px;
-    
+    width: 100%;
     margin-left: 35px;
-    margin-right: 35px;
+    
     margin-top: 30px;
     display: inline-block;
     background-color:white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 0px 20px #C0C0C0;
+    border: white solid 4px;
     
 }
 
 .house img
 {
-    width: 97%;
+    width: 100%;
     height: 120px;
    object-fit: cover;
-   object-position: center center;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+   object-position: center;
+    
     border-radius: 20px 20px 0px 0px;
    }
    .house h3
@@ -329,7 +327,7 @@ margin-bottom: 50px;
     .populaire
     {
         
-        
+        width: 100%;
        background-color:#F2F2F2;
     border-radius: 30px;
     border: solid 5px #F2F2F2;
@@ -358,7 +356,7 @@ margin-bottom: 50px;
 
 .image-populaire img
 {
-    width: 137px;
+    width: 40%;
     
     object-fit: cover;
     object-position: center center;
@@ -641,7 +639,8 @@ span.text-bouton
     background-color:#F2F2F2;
     border-radius: 30px;
     border: solid 5px #F2F2F2;
-    height: 600px;
+    height: 100%;
+    margin-right: 40px;
 }
 .titre-hebergement
 {
@@ -668,7 +667,7 @@ span.text-bouton
 }
 .house img 
 {
-    width: 95.5%;
+    width: 100%
 }
 .populaire
     {
@@ -685,7 +684,7 @@ span.text-bouton
    {
        display: flex;
        flex-direction: unset;
-       margin-left: -50px;
+       
        
    }
    .activites-bloc img
@@ -696,18 +695,18 @@ span.text-bouton
 
 .bloc-vieux-port
 {
-   width: 302px;
+   width: 100%;
     height: 447px;
     background: white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 0px 20px #C0C0C0;
-    margin-left: 60px;
+    margin-bottom: 0px;
     margin-right: 60px;
 }
 .bloc-vieux-port img
 {
     height: 390px;
-    width: 302px;
+    width: 100%;
     border-radius:  20px 20px 0px 0px;
 }
 .activites-bloc p
@@ -725,7 +724,7 @@ span.text-bouton
 .fort 
 {
     height: 238px;
-    width: 302px;
+    width: 100%;
     background: white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 0px 20px #C0C0C0;
@@ -733,14 +732,14 @@ span.text-bouton
 }
 .fort img
 {
-    width: 302px;
+    width: 100%;
 height: 180px;
     border-radius:  20px 20px 0px 0px;
 }
 
 .iles 
 {
-    width: 302px;
+    width: 100%;
     height: 166px;
     background: white;
     border-radius: 20px 20px 20px 20px;
@@ -748,14 +747,14 @@ height: 180px;
 }
 .iles img
 {   
-    width: 302px;
+    width: 100%;
     height: 110px;
     border-radius:  20px 20px 0px 0px;
 }
 .bloc-parcnational
 {
-    width: 302px;
-    
+    width: 100%;
+    margin-bottom: 0px;
     margin-left: 60px;
     margin-right: 60px;
     background: white;
@@ -765,7 +764,7 @@ height: 180px;
 .bloc-parcnational img
 {
     height: 390px;
-    width: 302px;
+    width: 100%;
     border-radius:  20px 20px 0px 0px;
 }
 .bloc-notredame-longchamp
@@ -777,14 +776,14 @@ height: 180px;
 {
     background: white;
     border-radius: 20px 20px 20px 20px;
-    width: 302px;
+    width: 100%;
     height: 196px;
     box-shadow: 0px 0px 20px #C0C0C0;
     margin-bottom: 50px;
 }
 .notre-dame img
 {
-    width: 302px;
+    width: 100%;
     height: 140px;
     border-radius:  20px 20px 0px 0px;
 }
@@ -792,13 +791,13 @@ height: 180px;
 {
     background: white;
     border-radius: 20px 20px 20px 20px;
-    width: 302px;
+    width: 100%;
     height: 210px;
     box-shadow: 0px 0px 20px #C0C0C0;
 }
 .Parc-longchamp img
 {
-    width: 302px;
+    width: 100%;
     height: 152px;
     border-radius:  20px 20px 0px 0px;
 }
@@ -847,7 +846,7 @@ width: 80%;
 }
 .house img 
 {
-    width: 98.5%;
+    width: 100%;
     object-position: bottom;
 }
 .filtre label 
