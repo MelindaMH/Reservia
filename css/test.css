@@ -8,7 +8,7 @@ html
         font-family:'Raleway' , sans-serif;
         margin: 0;
         padding: 0;
-        width: 100vw;
+        
         position: relative;
     }
     /*------------PARTIE HEADER ICI ---------*/
@@ -209,6 +209,10 @@ html
           margin-right: 20px;  
     }
     /* ---------PARTIE CONTAINER------- */
+    aside 
+    {
+        font-size: 12px;
+    }
     a 
     {
         text-decoration: none;
@@ -228,10 +232,9 @@ html
     .house
     {
         height: 200px;
-        width: 80%;
-        /* margin-left: 35px; */
-        /* margin-top: 30px; */
-        margin: 15px auto;
+        
+        
+        margin: 25px;
         display: block;
         background-color: white;
         border-radius: 20px 20px 20px 20px;
@@ -249,7 +252,7 @@ html
     .house h3
     {
            color: black;
-           font-size: 15px;
+           
            padding-left: 10px;
            margin: 4px;
            text-decoration:none;
@@ -262,7 +265,7 @@ html
     }
     .etoile
     {
-           padding-left: 10px;  
+           padding-left: 12px;  
            color: #0065FC;
     }
     .grey
@@ -318,11 +321,12 @@ html
     .populaire h3
     {
         margin: 4px;
+        padding-bottom: 15px;
     }
     .populaire .etoile
     { 
         padding-left: 5px;
-        padding-top: 30px;
+        padding-top: 40px;
     }
     .titre-populaire
     {
@@ -462,7 +466,7 @@ html
         display: flex;
         flex-direction: column;
         margin-top: 50px;
-        padding-bottom: 80px;
+        padding-bottom: 30px;
     }
     .bloc-footer h3
     {
@@ -479,7 +483,13 @@ html
     {
         margin: 0 auto;
         max-width: 1340px;
-        background-color: red;
+        
+    }
+    .container-house
+    {
+        display: flex;
+        flex-wrap: wrap;
+        
     }
     header 
     {
@@ -494,11 +504,11 @@ html
     .navigation
     { 
         border-bottom: white;
-        justify-content: space-between;
+       
     }
     .reservia
     {
-        margin-bottom: 10px;
+        
         width: 130px;
     }
     .navigation li 
@@ -539,9 +549,9 @@ html
     }
     .filtre
     {
-        display: flex;
+        
         align-items: center;
-      align-content: center;
+      
       flex-direction: row;
       margin-top: 20px;
     }
@@ -571,8 +581,6 @@ html
     {
         background-color:#F2F2F2;
         border-radius: 30px;
-        border: solid 5px #F2F2F2;
-        height: 100%;
         margin-right: 40px;
     }
     .titre-hebergement
@@ -582,20 +590,11 @@ html
     .afficher-plus
     {
         padding-top: 15px;
-        padding-left: 50px;
         padding-bottom: 20px;
     }
      .house
     {
-        height: 200px;
-        width: 235px;
-        margin-top:  40px;
-        margin-left: 50px;
-        margin-right: 20px;
-        display: inline-block;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 0px 0px 20px #C0C0C0;
+        width: calc(100% / 3 - 58px);
     }
     .house img 
     {
@@ -604,23 +603,22 @@ html
     .populaire
         {
            height: 630px;
-            width: 410px;
             border-radius: 30px;
-            padding-bottom: 40px;
+            
         }
     .image-populaire
     {
-        height: 140px;
+        height: 135px;
         width: 340px;
        }
        .populaire .etoile
        {
            
-           padding: inherit;
+           padding-top: 20px;
        }
        .activites-bloc
        {
-           display: flex;
+           
            flex-direction: unset; 
        }
        .activites-bloc img
@@ -631,9 +629,6 @@ html
     {
        width: 25%;
         height: 454px;
-        background: white;
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 0px 0px 20px #C0C0C0;
         margin: 0 25px;
     }
     .bloc-vieux-port img
@@ -650,8 +645,7 @@ html
     }
     .bloc-fort-iles
     {
-        display: flex;
-        flex-direction: column;
+        
         width: 25%;
         margin: 0 25px;
     }
@@ -659,9 +653,6 @@ html
     {
         height: 238px;
         width: 100%;
-        background: white;
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 0px 0px 20px #C0C0C0;
         margin-bottom: 50px;
     }
     .fort img
@@ -674,9 +665,6 @@ html
     {
         width: 100%;
         height: 166px;
-        background: white;
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 0px 0px 20px #C0C0C0;
     }
     .iles img
     {   
@@ -689,9 +677,6 @@ html
         width: 25%;
         margin: 0 25px;
         height: 454px;
-        background: white;
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 0px 0px 20px #C0C0C0;
     }
     .bloc-parcnational img
     {
@@ -701,18 +686,13 @@ html
     }
     .bloc-notredame-longchamp
     {
-        display: flex;
-        flex-direction: column;
         width: 25%;
         margin: 0 25px;
     }
     .notre-dame
     {
-        background: white;
-        border-radius: 20px 20px 20px 20px;
         width: 100%;
         height: 196px;
-        box-shadow: 0px 0px 20px #C0C0C0;
         margin-bottom: 50px;
     }
     .notre-dame img
@@ -723,11 +703,8 @@ html
     }
     .Parc-longchamp
     {
-        background: white;
-        border-radius: 20px 20px 20px 20px;
         width: 100%;
-        height: 210px;
-        box-shadow: 0px 0px 20px #C0C0C0;
+        height: 210px; 
     }
     .Parc-longchamp img
     {
@@ -737,25 +714,18 @@ html
     }
     .bloc-footer
     {
-        
-        display: flex;
         flex-direction: unset;
         justify-content: space-around;
-        margin-top: 50px;
         margin: 50px auto 0;
         max-width: 1340px;
     }
     .bloc-footer h3
     {
-        margin-bottom: 15px;
         margin-top: 30px;
-        padding-right: 25px;
-        padding-left: 25px;
         text-align: center;
     }
     .bloc-footer li
     {
-     list-style: none;
      padding-right: 25px;
      padding-left: 25px;
     }
@@ -792,6 +762,7 @@ html
     {
         width: 100%;
     }
+    
     .bloc-vieux-port
     {
       width: 60%;
